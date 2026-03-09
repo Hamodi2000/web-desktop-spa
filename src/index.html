@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" defer src="/components/AppIcon.js"></script>
+    <script type="module" defer src="/components/App.js"></script>
+    <script type="module" defer src="/components/ChatApp.js"></script>
+    <script type="module" defer src="/components/MemoryApp.js"></script>
+    <script type="module" defer src="/components/GameApp.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Lupus</h1>
+    </header>
+    <main id="main-body">
+        <div class="open-applications" id="chat-applications">
+            <div class="header-div"></div>
+            <div class="applications-div"></div>
+        </div>
+        <div class="open-applications" id="memory-applications">
+            <div class="header-div"></div>
+            <div class="applications-div"></div>
+        </div> 
+        <div class="open-applications" id="game-applications">
+            <div class="header-div"></div>
+            <div class="applications-div"></div>
+        </div> 
+    </main>
+    <footer id="'main-footer">
+        <app-icon alt="chat app" title="chat-app"> </app-icon>
+        <app-icon alt="memory game" title="memory-app"> </app-icon>
+        <app-icon alt="maze game" title="game-app"> </app-icon>
+    </footer>
+</body>
+</html>
