@@ -118,3 +118,5 @@ Click the **icons in the taskbar** to open applications.
 * WebSockets
 * Canvas API
 * localStorage
+
+Note: The chat application uses the WebSocket server provided by the course and requires an API key when sending messages.
